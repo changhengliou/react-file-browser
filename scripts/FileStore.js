@@ -17,10 +17,15 @@ class FileViewStore {
             return;
         }
 
-        request.get(`http://localhost:3000/path?base=${path}`)
+        request.get(`/db.json`)
             .then(res => {
-                // alter this when in real application
-                const { directories, files } = res.body[0];
+                var result = res.body.path.filter(o => o.base === path);
+                console.log(path, result);
+                if (result.length === 0) {
+                    this.directories.set(path, []);
+                    this.files.set(path, []);
+                }
+                const { directories, files } = result[0];
                 this.directories.set(path, directories);
                 this.files.set(path, files);
             })

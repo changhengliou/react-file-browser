@@ -6,7 +6,7 @@ import { FileInfo } from './fileInfo';
 import { FileFooter } from './filefooter';
 import { store } from './FileStore';
 
-const maxFilesInPage = 20;
+const maxFilesInPage = 5;
 @observer
 export class FilePanel extends React.Component {
     constructor(props) {
@@ -62,7 +62,7 @@ export class FilePanel extends React.Component {
                     }
                 ) }
                 <FileFooter activePage={ store.activePage }
-                            maxPage={parseInt((directories.length + files.length) / maxFilesInPage)}
+                            maxPage={Math.ceil((directories.length + files.length) / maxFilesInPage)}
                             maxPageDisplay={5}/>
             </div>
         ) : (
