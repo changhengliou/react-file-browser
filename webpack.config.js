@@ -83,6 +83,9 @@ module.exports = (env) => {
                 fileName: "vendor.js",
                 minChunks: Infinity
             }),
+            new webpack.DefinePlugin({
+                'process.env.NODE_ENV': isDevBuild ? '"development"' : '"production"'
+            })
         ].concat(isDevBuild ? [
             new webpack.HotModuleReplacementPlugin(),
             new webpack.SourceMapDevToolPlugin({
