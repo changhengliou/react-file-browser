@@ -1,0 +1,218 @@
+{
+    "path": [{
+        "base": "/",
+        "directories": [{
+                "id": 0,
+                "name": "dirA",
+                "selected": false,
+                "path": "/dirA"
+            },
+            {
+                "id": 1,
+                "name": "dirB",
+                "selected": false,
+                "path": "/dirB"
+            },
+            {
+                "id": 2,
+                "name": "dirC",
+                "selected": false,
+                "path": "/dirC"
+            }
+        ],
+        "files": [{
+                "id": 0,
+                "name": "dog",
+                "fileName": "a.jpg",
+                "path": "/a.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2018/01/dogs.png"
+            },
+            {
+                "id": 1,
+                "name": "eagle",
+                "fileName": "b.jpg",
+                "path": "/b.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2018/01/Larus_canus.png"
+            },
+            {
+                "id": 2,
+                "name": "leopard",
+                "fileName": "c.jpg",
+                "path": "/c.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2017/12/Jaguar-PNG-Pic.png"
+            }
+        ]
+    }, {
+        "base": "/dirA",
+        "directories": [{
+            "id": 0,
+            "name": "dirA_A",
+            "selected": false,
+            "path": "/dirA/dirA_A"
+        }],
+        "files": [{
+                "id": 0,
+                "name": "beebird",
+                "fileName": "e.jpg",
+                "path": "/dirA/e.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2018/01/beebird.png"
+            },
+            {
+                "id": 1,
+                "name": "falcon",
+                "fileName": "f.jpg",
+                "path": "/dirA/f.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2018/01/Falco_peregrinus.png"
+            },
+            {
+                "id": 2,
+                "name": "eagle",
+                "fileName": "g.jpg",
+                "path": "/dirA/g.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2017/12/eagle.png"
+            }
+        ]
+    }, {
+        "base": "/dirB",
+        "directories": [],
+        "files": []
+    }, {
+        "base": "/dirC",
+        "directories": [
+            {
+                "id": 0,
+                "name": "dirC_A",
+                "selected": false,
+                "path": "/dirC/dirC_A"
+            },
+            {
+                "id": 1,
+                "name": "dirC_B",
+                "selected": false,
+                "path": "/dirC/dirC_B"
+            }
+        ],
+        "files": [
+            {
+                "id": 0,
+                "name": "deer",
+                "fileName": "h.jpg",
+                "path": "/dirC/h.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2017/12/deer.png"
+            },
+            {
+                "id": 1,
+                "name": "lizard",
+                "fileName": "i.jpg",
+                "path": "/dirC/i.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2017/12/lizard.png"
+            },
+            {
+                "id": 2,
+                "name": "owl",
+                "fileName": "j.jpg",
+                "path": "/dirC/j.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2017/12/owl.png"
+            },
+            {
+                "id": 3,
+                "name": "peacock",
+                "fileName": "k.jpg",
+                "path": "/dirC/k.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2017/12/peacock.png"
+            },
+            {
+                "id": 4,
+                "name": "horse",
+                "fileName": "l.jpg",
+                "path": "/dirC/l.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2018/01/horse-1.png"
+            },
+            {
+                "id": 5,
+                "name": "giraffe",
+                "fileName": "mam.jpg",
+                "path": "/dirC/mam.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2018/01/giraffe.png"
+            }
+        ]
+    }, {
+        "base": "/dirA/dirA_A",
+        "directories": [],
+        "files": [{
+                "id": 0,
+                "name": "chicken",
+                "fileName": "w.jpg",
+                "path": "/dirA/dirA_A/w.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2018/01/chicken.png"
+            },
+            {
+                "id": 1,
+                "name": "rabbit",
+                "fileName": "x.jpg",
+                "path": "/dirA/dirA_A/x.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2018/01/rabbit.png"
+            },
+            {
+                "id": 2,
+                "name": "pigeon",
+                "fileName": "y.jpg",
+                "path": "/dirA/dirA_A/y.jpg",
+                "selected": false,
+                "disabled": false,
+                "isDir": false,
+                "previewPath": "http://web.point.tv/wordpress/wp-content/uploads/2018/01/pigeon.png"
+            }
+        ]
+    }, {
+        "base": "/dirC/dirC_A",
+        "directories": [],
+        "files": []
+    }, {
+        "base": "/dirC/dirC_B",
+        "directories": [],
+        "files": []
+    }]
+}
