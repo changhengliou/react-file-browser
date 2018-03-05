@@ -17,7 +17,7 @@ class FileViewStore {
             return;
         }
 
-        request.get(`/db.json`)
+        request.get(`/react-file-browser/db.json`)
             .then(res => {
                 var result = res.body.path.filter(o => o.base === path);
                 console.log(path, result);

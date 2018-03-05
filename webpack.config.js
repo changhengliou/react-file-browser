@@ -21,7 +21,7 @@ module.exports = (env) => {
         output: {
             filename: '[name].js',
             path: outputDir,
-            publicPath: '/dist/',
+            publicPath: '/react-file-browser/dist/',
         },
         devServer: {
             hot: true,
